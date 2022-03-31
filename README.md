@@ -7,5 +7,8 @@ Might need to change the API KEY in the APIManager.swift files
 ## Notice
 This app is built and tested on Xcode 12 MacOS Catalina
 
+## FastLane
+
+
 
 
