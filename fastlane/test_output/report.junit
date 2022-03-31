@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='NewsUITests.xctest' tests='4' failures='0'>
+  <testsuite name='NewsTests.NewsTests' tests='2' failures='0'>
+    <testcase classname='NewsTests.NewsTests' name='testExample' time='0.006'/>
+    <testcase classname='NewsTests.NewsTests' name='testPerformanceExample' time='0.378'/>
+  </testsuite>
+  <testsuite name='NewsUITests.NewsUITests' tests='2' failures='0'>
+    <testcase classname='NewsUITests.NewsUITests' name='testExample' time='2.468'/>
+    <testcase classname='NewsUITests.NewsUITests' name='testLaunchPerformance' time='19.344'/>
+  </testsuite>
+</testsuites>
