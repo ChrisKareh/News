@@ -40,8 +40,8 @@ class NewsTableViewController: UITableViewController  {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "article", for: indexPath) as! NewsTableViewCell
         if let results = results {
-            cell.titleLabel.text = "potato"
-                //results.results[indexPath.section].title
+            cell.titleLabel.text = results.results[indexPath.section].title
+                
             print(cell.titleLabel.text ?? "default")
             
             cell.titleLabel.text = results.results[indexPath.section].byline
